@@ -5,6 +5,7 @@
 5. sada_current_limit_set  确认一下过流保护阈值设置的是母线还是相电流
 6. sada_single_event_protection_set 电流相关设置，还是取决于厂家，不一定使用DRV8825
 7. sada_parameter_configuration_status_read 电流相关，建议可选
+8. **表B.1综合电子硬件状态获取值** 请按类别解耦合，不能统一上报，影响API性能，因有些状态需要及时获取，sada状态其他接口有重复。
 
 # 三取二
 
