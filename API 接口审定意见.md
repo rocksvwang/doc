@@ -6,6 +6,10 @@
 6. sada_single_event_protection_set 电流相关设置，还是取决于厂家，不一定使用DRV8825
 7. sada_parameter_configuration_status_read 电流相关，建议可选
 
+# 三取二
+
+
+
 
 
 
