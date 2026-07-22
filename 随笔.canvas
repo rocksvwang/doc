@@ -1,6 +1,12 @@
 {
 	"nodes":[
-		{"id":"4df791bb563f098b","x":-520,"y":-320,"width":420,"height":50,"type":"text","text":"sk-66eb8c840b354126bbac813092eb8f25 yxf deepseek api key"}
+		{"id":"4384fb9c14c09107","type":"text","text":"","x":-905,"y":-252,"width":250,"height":60},
+		{"id":"019c13a03c504ac9","type":"file","file":"审定意见.md","x":-1560,"y":-520,"width":880,"height":810},
+		{"id":"4df791bb563f098b","type":"text","text":"sk-66eb8c840b354126bbac813092eb8f25 yxf ‘s deepseek api key","x":-1620,"y":-1740,"width":600,"height":27},
+		{"id":"d8e2d88537cad4b5","type":"text","text":"","x":-980,"y":360,"width":250,"height":60},
+		{"id":"4fefb415dbd1038c","type":"text","text":" yxf ‘s deepseek api key","x":-1320,"y":-1940,"width":250,"height":60}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"e295bdf6d99a28a7","fromNode":"4df791bb563f098b","fromSide":"right","toNode":"4fefb415dbd1038c","toSide":"right","fromEnd":"arrow"}
+	]
 }
