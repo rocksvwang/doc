@@ -10,6 +10,11 @@
  [Working with Zephyr](https://mcuxpresso.nxp.com/mcux-vscode/latest/html/Working-with-Zephyr.html)
 
 
+# Debug configuration
 
+[lanunch.json](../NXP/launch.json)
+# CM7 core loading flowchart
 
+ 1. soc/nxp/imxrt/imxrt118x/soc.c
+ 2.  link script：linker.cmd
 
