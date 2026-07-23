@@ -8,13 +8,49 @@
 # Build VS-Code development environment
 
  [Working with Zephyr](https://mcuxpresso.nxp.com/mcux-vscode/latest/html/Working-with-Zephyr.html)
+# Porject base line
 
+![[Pasted image 20260723093642.png]]
+# Debug
 
-# Debug configuration
+We need to support dual-core debugging, so we modified the configuration.
 
 [lanunch.json](../NXP/launch.json)
-# CM7 core loading flowchart
+
+The debugging steps are as follows:
+**Step1：
+
+![[Pasted image 20260723094542.png]]
+
+**Step2
+
+![[Pasted image 20260723095235.png|340]]
+
+**Step3 ：Debug master core
+
+![[Pasted image 20260723095923.png]]
+
+**Step4： Debug second core
+
+![[Pasted image 20260723100422.png]]
+
+
+# Device-Tree
+
+![[Pasted image 20260723102355.png]]
+
+
+
+
+# CM7 core image loading flowchart
+
+The CM33 core loads the CM7 image and then wakes up the CM7 core. The main implementation is located in soc.c.
 
  1. soc/nxp/imxrt/imxrt118x/soc.c
- 2.  link script：linker.cmd
+
+The CM7 image location in NOR Flash is determined by the linker script.
+
+ 1.  link script：linker.cmd
+
+
 
