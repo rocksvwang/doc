@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"4df791bb563f098b","type":"text","text":"sk-66eb8c840b354126bbac813092eb8f25 yxf ‘s deepseek api key","x":-1620,"y":-1740,"width":600,"height":27},
 		{"id":"4fefb415dbd1038c","type":"text","text":" yxf ‘s deepseek api key","x":-1320,"y":-1940,"width":250,"height":60},
-		{"id":"f9ea138ee4c89879","x":-1499,"y":-1500,"width":579,"height":200,"type":"text","text":"尚华： 软件部门\n\n1. canfd 发送成功判定为在ack位时low\n2. 数据时间敏感，顺序敏感性问题\n3. socket can 发送数据不均匀，说因为内部缓冲问题。"}
+		{"id":"f9ea138ee4c89879","x":-1499,"y":-1500,"width":579,"height":200,"type":"text","text":"尚华： 软件部门\n\n1. canfd 发送成功判定为在ack位时low\n2. 数据时间敏感，顺序敏感性问题\n3. socket can 发送数据不均匀，说因为内部缓冲问题。\n\t1. 发送的缓冲做小一点是否合适"}
 	],
 	"edges":[
 		{"id":"e295bdf6d99a28a7","fromNode":"4df791bb563f098b","fromSide":"right","toNode":"4fefb415dbd1038c","toSide":"right","fromEnd":"arrow"}
